@@ -4,13 +4,13 @@
 
     <groupId>release-plugin-test</groupId>
     <artifactId>release-plugin-test</artifactId>
-    <version>0.0.5</version>
+    <version>0.0.6-SNAPSHOT</version>
 
 
     <scm>
         <connection>https://github.com/lkleen/release-plugin-test.git</connection>
         <developerConnection>scm:git:git@github.com:lkleen/release-plugin-test.git</developerConnection>
-        <tag>0.0.5-SNAPSHOT</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <properties>
