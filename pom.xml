@@ -4,7 +4,7 @@
 
     <groupId>release-plugin-test</groupId>
     <artifactId>release-plugin-test</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
 
 
     <scm>
