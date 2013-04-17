@@ -1,0 +1,25 @@
+target
+test-output
+classes
+activemq-data
+
+# intellij
+*.iml
+*.ipr
+*.iws
+*.log
+.idea/
+
+# eclipse
+.project
+.metadata
+.classpath
+.settings/
+.loadpath
+.springBeans
+bin
+
+
+# maven
+*.versionsBackup
+*.releaseBackup
