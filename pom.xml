@@ -4,13 +4,18 @@
 
     <groupId>release-plugin-test</groupId>
     <artifactId>release-plugin-test</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
 
 
     <scm>
         <connection>https://github.com/lkleen/release-plugin-test.git</connection>
         <developerConnection>scm:git:git@github.com:lkleen/release-plugin-test.git</developerConnection>
+        <tag>HEAD</tag>
     </scm>
+
+    <properties>
+        <build.plugins.plugin.version>2.7</build.plugins.plugin.version>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -19,4 +24,22 @@
             <version>4.10</version>
         </dependency>
     </dependencies>
+
+    <!-- inherited from javatoolbox parent -->
+
+    <distributionManagement>
+        <repository>
+            <id>bigpoint-nexus</id>
+            <name>bigpoint-nexus-releases</name>
+            <url>http://artifact-01.bigpoint.net:8080/nexus/content/repositories/releases</url>
+
+        </repository>
+
+        <snapshotRepository>
+            <id>bigpoint-nexus</id>
+            <name>bigpoint-nexus-snapshot</name>
+            <url>http://artifact-01.bigpoint.net:8080/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>
